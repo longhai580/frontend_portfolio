@@ -4,7 +4,6 @@ import gsap from "gsap";
 import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
-import HeroExperience from "../components/models/hero_models/HeroExperience";
 import AvatarSection from "@/sections/AvatarSection.jsx";
 import {useTranslation} from "react-i18next";
 

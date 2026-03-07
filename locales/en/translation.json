@@ -1,0 +1,111 @@
+{
+    "navbar": {
+      "work": "Work",
+      "experience": "Experience",
+      "skills": "Skills",
+      "videos": "Videos"
+    },
+  "about": {
+    "title": "About Me",
+    "heading": "Cinematic Video Editing & Event Storytelling",
+    "creativeJourney": "Creative Journey",
+    "paragraph1": "I’m a video editor and videographer with over 2 years of experience, specializing in beauty, fashion, and event content.",
+    "paragraph2": "I’ve filmed and edited hundreds of events, including red carpet moments, fashion shows, and lookbook productions, capturing the energy and elegance of each scene.",
+    "paragraph3": "My focus is creating stylish short-form videos for platforms like TikTok, combining clean aesthetics, dynamic pacing, and cinematic visuals to highlight beauty and fashion stories.",
+    "paragraph4": "I work with professional tools such as Premiere Pro, After Effects, DaVinci Resolve, and Capcut.",
+    "tools": ["Premiere Pro", "After Effects", "DaVinci Resolve", "CapCut"],
+    "timeline": [
+      { "year": "2024", "text": "Started professional editing projects." },
+      { "year": "2025", "text": "Focused on short-form storytelling & reels." },
+      { "year": "2026", "text": "Building high-impact branded video content." }
+    ]
+  },
+
+  "career": {
+    "title": "My Career Overview",
+    "subtitle": "Professional Work Experience"
+  },
+    "name": "Hai Nguyen",
+    "contact": "Contact",
+    "email_admin": "Enter admin email",
+    "email_description": "Please enter admin email to verify access.",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "hero": {
+      "title1": "Shaping",
+      "title2": "into Real Projects",
+      "title3": "that Deliver Results",
+      "description": "Hi, I’m Hai Nguyen, a video creator and editor based in Vietnam with a passion for visual storytelling.",
+      "button": "See My Work"
+    },
+    "video": {
+      "button": "View My Video"
+    },
+
+    "feedback": {
+      "title": "⭐️ Customer feedback highlights",
+      "subtitle": "What People Say About Me?",
+      "testimonials": [
+        {
+          "name": "Esther Howard",
+          "mentions": "@estherhoward",
+          "review": "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+          "imgPath": "/images/client1.png"
+        },
+        {
+          "name": "Wade Warren",
+          "mentions": "@wadewarren",
+          "review": "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+          "imgPath": "/images/client3.png"
+        },
+        {
+          "name": "Guy Hawkins",
+          "mentions": "@guyhawkins",
+          "review": "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+          "imgPath": "/images/client2.png"
+        },
+        {
+          "name": "Marvin McKinney",
+          "mentions": "@marvinmckinney",
+          "review": "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+          "imgPath": "/images/client5.png"
+        },
+        {
+          "name": "Floyd Miles",
+          "mentions": "@floydmiles",
+          "review": "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+          "imgPath": "/images/client4.png"
+        },
+        {
+          "name": "Albert Flores",
+          "mentions": "@albertflores",
+          "review": "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+          "imgPath": "/images/client6.png"
+        }
+      ]
+    },
+  "contact_form": {
+    "title": "Get in Touch – Let’s Connect",
+    "subtitle": "💬 Have questions or ideas? Let’s talk! 🚀",
+    "labels": {
+      "name": "Your name",
+      "email": "Your Email",
+      "message": "Your Message"
+    },
+    "placeholders": {
+      "name": "What’s your good name?",
+      "email": "What’s your email address?",
+      "message": "How can I help you?"
+    },
+    "button": {
+      "sending": "Sending...",
+      "send": "Send Message"
+    },
+    "alerts": {
+      "success": "✅ Message sent successfully!",
+      "error": "❌ Failed to send message. Please try again!"
+    }
+  }
+
+
+}

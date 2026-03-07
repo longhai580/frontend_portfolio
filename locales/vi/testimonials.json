@@ -1,0 +1,42 @@
+{
+  "title": "Mọi người nói gì về tôi?",
+  "subtitle": "⭐️ Phản hồi từ khách hàng",
+  "list": [
+    {
+      "name": "Esther Howard",
+      "mentions": "@estherhoward",
+      "review": "Tôi không thể nói hết những điều tốt đẹp về Adrian. Anh ấy đã biến những yêu cầu phức tạp của chúng tôi thành một trang web liền mạch và hoàn chỉnh. Khả năng giải quyết vấn đề của anh ấy thật sự xuất sắc.",
+      "imgPath": "/images/client1.png"
+    },
+    {
+      "name": "Wade Warren",
+      "mentions": "@wadewarren",
+      "review": "Làm việc với Adrian là một trải nghiệm tuyệt vời. Anh ấy đã biến trang web cũ kỹ của chúng tôi thành một nền tảng hiện đại và thân thiện với người dùng. Sự tỉ mỉ và cam kết chất lượng của anh ấy thật đáng khâm phục. Rất đáng để hợp tác cho bất kỳ dự án web nào.",
+      "imgPath": "/images/client3.png"
+    },
+    {
+      "name": "Guy Hawkins",
+      "mentions": "@guyhawkins",
+      "review": "Hợp tác với Adrian là một niềm vui thực sự. Tính chuyên nghiệp, sự nhanh nhẹn và tinh thần tận tâm của anh ấy được thể hiện rõ trong suốt dự án. Niềm đam mê của Adrian đối với từng khía cạnh của phát triển web thật nổi bật. Nếu bạn muốn nâng tầm thương hiệu và website của mình, Adrian là lựa chọn hoàn hảo.",
+      "imgPath": "/images/client2.png"
+    },
+    {
+      "name": "Marvin McKinney",
+      "mentions": "@marvinmckinney",
+      "review": "Thật tuyệt khi được làm việc với Adrian. Anh ấy đã biến trang web cũ kỹ của chúng tôi thành một nền tảng mới mẻ, trực quan và dễ sử dụng. Một công việc tuyệt vời trên mọi phương diện.",
+      "imgPath": "/images/client5.png"
+    },
+    {
+      "name": "Floyd Miles",
+      "mentions": "@floydmiles",
+      "review": "Kiến thức của Adrian trong phát triển web thật ấn tượng. Anh ấy đã tạo ra một giải pháp mạnh mẽ và có thể mở rộng cho trang thương mại điện tử của chúng tôi, giúp doanh số tăng đáng kể kể từ khi ra mắt. Anh ấy thực sự là một chuyên gia!",
+      "imgPath": "/images/client4.png"
+    },
+    {
+      "name": "Albert Flores",
+      "mentions": "@albertflores",
+      "review": "Làm việc với Adrian thật dễ chịu. Anh ấy hiểu rõ yêu cầu của chúng tôi và mang đến một trang web vượt ngoài mong đợi. Kỹ năng frontend và backend của anh ấy đều xuất sắc.",
+      "imgPath": "/images/client6.png"
+    }
+  ]
+}

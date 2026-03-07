@@ -1,0 +1,104 @@
+{
+    "navbar": {
+      "work": "Công việc",
+      "experience": "Kinh nghiệm",
+      "skills": "Kỹ năng",
+      "videos": "Video"
+    },
+  "about": {
+    "title": "Về Tôi",
+    "heading": "Dựng Video Điện Ảnh & Kể Chuyện Sự Kiện",
+    "creativeJourney": "Hành Trình Sáng Tạo",
+    "paragraph1": "Tôi là video editor và videographer với hơn 2 năm kinh nghiệm, chuyên về nội dung beauty, fashion và sự kiện.",
+    "paragraph2": "Tôi đã quay và dựng hàng trăm sự kiện, bao gồm khoảnh khắc thảm đỏ, show thời trang và lookbook, tái hiện trọn vẹn năng lượng và sự tinh tế của từng khung hình.",
+    "paragraph3": "Tôi tập trung tạo video ngắn phong cách cho các nền tảng như TikTok, kết hợp thẩm mỹ tối giản, nhịp dựng linh hoạt và hình ảnh cinematic để tôn bật câu chuyện beauty và fashion.",
+    "paragraph4": "Tôi làm việc với các công cụ chuyên nghiệp như Premiere Pro, After Effects, DaVinci Resolve và Capcut.",
+
+    "tools": ["Premiere Pro", "After Effects", "DaVinci Resolve", "CapCut"],
+    "timeline": [
+      { "year": "2024", "text": "Bắt đầu nhận các dự án dựng video chuyên nghiệp." },
+      { "year": "2025", "text": "Tập trung vào storytelling cho video ngắn và reels." },
+      { "year": "2026", "text": "Phát triển nội dung video thương hiệu có sức ảnh hưởng cao." }
+    ]
+  },
+
+  "name": "Hải Nguyễn",
+    "contact": "Liên hệ",
+    "email_admin": "Nhập email admin",
+    "email_description": "Vui lòng nhập email admin để xác thực quyền truy cập.",
+    "confirm": "Xác nhận",
+    "cancel": "Hủy",
+
+    "hero": {
+      "title1": "Định hình",
+      "title2": "thành những dự án thực tế",
+      "title3": "mang lại hiệu quả",
+      "description": "Xin chào, tôi là Hải Nguyễn, một video editor tại Việt Nam, luôn đam mê ghi lại và tạo nên những câu chuyện điện ảnh.",
+      "button": "Xem các dự án của tôi"
+    },
+  "feedback": {
+    "title": "⭐ Đánh giá nổi bật của khách hàng",
+    "subtitle": "Mọi người nói gì về tôi?",
+    "testimonials": [
+      {
+        "name": "Esther Howard",
+        "mentions": "@estherhoward",
+        "review": "Tôi không thể nói hết những điều tuyệt vời về Adrian. Anh ấy đã biến các yêu cầu phức tạp của dự án thành một trang web liền mạch và hoạt động hoàn hảo. Khả năng giải quyết vấn đề của anh ấy thật đáng kinh ngạc.",
+        "imgPath": "/images/client1.png"
+      },
+      {
+        "name": "Wade Warren",
+        "mentions": "@wadewarren",
+        "review": "Làm việc với Adrian là một trải nghiệm tuyệt vời. Anh ấy đã biến trang web cũ kỹ của chúng tôi thành một nền tảng hiện đại và thân thiện với người dùng. Sự tỉ mỉ và cam kết với chất lượng của anh ấy thật đáng khâm phục. Rất khuyến khích anh ấy cho mọi dự án web!",
+        "imgPath": "/images/client3.png"
+      },
+      {
+        "name": "Guy Hawkins",
+        "mentions": "@guyhawkins",
+        "review": "Hợp tác với Adrian thật sự là một niềm vui. Sự chuyên nghiệp, nhanh nhẹn và tận tâm của anh ấy trong việc mang lại kết quả xuất sắc thể hiện rõ trong suốt dự án. Niềm đam mê của Adrian đối với mọi khía cạnh phát triển web thật sự nổi bật. Nếu bạn muốn nâng tầm trang web và thương hiệu của mình, Adrian chính là đối tác lý tưởng.",
+        "imgPath": "/images/client2.png"
+      },
+      {
+        "name": "Marvin McKinney",
+        "mentions": "@marvinmckinney",
+        "review": "Thật vui khi được làm việc với Adrian. Anh ấy đã biến trang web lỗi thời của chúng tôi thành một nền tảng mới mẻ, trực quan, hiện đại và dễ sử dụng. Một công việc tuyệt vời trên mọi phương diện.",
+        "imgPath": "/images/client5.png"
+      },
+      {
+        "name": "Floyd Miles",
+        "mentions": "@floydmiles",
+        "review": "Chuyên môn của Adrian trong lĩnh vực phát triển web thật sự ấn tượng. Anh ấy đã cung cấp một giải pháp mạnh mẽ và có khả năng mở rộng cho trang thương mại điện tử của chúng tôi, và doanh số online đã tăng đáng kể kể từ khi ra mắt. Một chuyên gia thực thụ!",
+        "imgPath": "/images/client4.png"
+      },
+      {
+        "name": "Albert Flores",
+        "mentions": "@albertflores",
+        "review": "Thật tuyệt khi được làm việc với Adrian. Anh ấy hiểu rõ yêu cầu của chúng tôi và mang đến một trang web vượt xa mong đợi. Kỹ năng của anh ấy ở cả frontend và backend đều thuộc hàng xuất sắc.",
+        "imgPath": "/images/client6.png"
+      }
+    ]
+  },
+  "contact_form": {
+    "title": "Kết nối với tôi",
+    "subtitle": "💬 Bạn có câu hỏi hoặc ý tưởng nào không? Hãy cùng trao đổi nhé! 🚀",
+    "labels": {
+      "name": "Tên của bạn",
+      "email": "Email của bạn",
+      "message": "Lời nhắn của bạn"
+    },
+    "placeholders": {
+      "name": "Nhập họ và tên của bạn?",
+      "email": "Nhập địa chỉ Email của bạn?",
+      "message": "Tôi có thể giúp gì cho bạn?"
+    },
+    "button": {
+      "sending": "Đang gửi...",
+      "send": "Gửi tin nhắn"
+    },
+    "alerts": {
+      "success": "✅ Gửi tin nhắn thành công!",
+      "error": "❌ Gửi tin nhắn thất bại. Vui lòng thử lại!"
+    }
+  }
+
+}

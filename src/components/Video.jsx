@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { memo, useEffect, useState } from "react";
 import TitleHeader from "@/components/TitleHeader.jsx";
-import MuxPlayer from "@mux/mux-player-react";
+import MuxPlayer from "@mux/mux-player-react/lazy";
+import { useInView } from "react-intersection-observer";
 import {
     Carousel,
     CarouselContent,
@@ -12,6 +13,41 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { SiTiktok, SiGoogledrive } from "react-icons/si";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
+
+const VideoCard = memo(function VideoCard({ video }) {
+    const { ref, inView } = useInView({
+        // Prepare visible carousel cards shortly before they reach the screen.
+        rootMargin: "400px 0px",
+        triggerOnce: true,
+        fallbackInView: true,
+    });
+    const poster = `https://image.mux.com/${video.playbackId}/thumbnail.webp?width=480`;
+
+    return (
+        <div
+            ref={ref}
+            className="relative w-full aspect-[9/16] overflow-hidden rounded-xl bg-black"
+        >
+            {inView && (
+                <MuxPlayer
+                    playbackId={video.playbackId}
+                    streamType="on-demand"
+                    controls
+                    loading="page"
+                    preload="metadata"
+                    poster={poster}
+                    placeholder={poster}
+                    metadata={{
+                        video_id: video.id,
+                        video_title: video.title || "Video",
+                    }}
+                    style={{ aspectRatio: "9 / 16" }}
+                    className="absolute inset-0 w-full h-full"
+                />
+            )}
+        </div>
+    );
+});
 
 function CategoryCarousel({ videos }) {
     const [api, setApi] = useState(null);
@@ -44,16 +80,7 @@ function CategoryCarousel({ videos }) {
                         key={video.id}
                         className="basis-full sm:basis-1/2 lg:basis-1/3"
                     >
-                        <div className="relative w-full aspect-[9/16] overflow-hidden rounded-xl bg-black">
-                            <MuxPlayer
-                                playbackId={video.playbackId}
-                                streamType="on-demand"
-                                controls
-                                preload="metadata"
-                                metadataVideoTitle={video.title || "Video"}
-                                className="absolute inset-0 w-full h-full"
-                            />
-                        </div>
+                        <VideoCard video={video} />
                     </CarouselItem>
                 ))}
             </CarouselContent>
@@ -90,6 +117,8 @@ export default function VideoList() {
 
     useEffect(() => {
         const controller = new AbortController();
+        setLoading(true);
+        setError("");
 
         fetch(`${apiBaseUrl}/api/videos`, { signal: controller.signal })
             .then(async (res) => {
@@ -101,14 +130,20 @@ export default function VideoList() {
                 }
                 return res.json();
             })
-            .then((data) => setCategories(Array.isArray(data) ? data : []))
+            .then((data) => {
+                if (!controller.signal.aborted) {
+                    setCategories(Array.isArray(data) ? data : []);
+                }
+            })
             .catch((err) => {
-                if (err.name !== "AbortError") {
+                if (!controller.signal.aborted) {
                     console.error("Fetch error:", err);
                     setError("Không tải được danh sách video.");
                 }
             })
-            .finally(() => setLoading(false));
+            .finally(() => {
+                if (!controller.signal.aborted) setLoading(false);
+            });
 
         return () => controller.abort();
     }, [apiBaseUrl]);
